@@ -27,3 +27,14 @@
 	font-size:16px;
 }
 
+.jumbotron {
+	background: url("http://i1382.photobucket.com/albums/ah266/ryanfairist/coololdguy%20-%20Copy_zpsixhtlkhr.jpg") no-repeat center center;
+	height:500px;
+	z-index:-1;
+}
+
+
+#blue {
+	margin-top: -48px;
+	margin- right: -10px;
+}
