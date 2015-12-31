@@ -26,6 +26,7 @@
 	color:#000;
 	font-size:16px;
 }
+/*well/jumbotron*/
 
 #man {
 	background: url("http://i1382.photobucket.com/albums/ah266/ryanfairist/coololdguy%20-%20Copy_zpsixhtlkhr.jpg") no-repeat center center;
@@ -53,7 +54,10 @@
 #blue {
 	font-family:"Roboto+Slab:400,700";
 }
-
+#blue h6{
+	font-family:"Volkhov";
+	font-style: italic;
+}
 /*main/arrivals*/
 .arrivals {
 	
@@ -85,10 +89,15 @@
 	margin-bottom:0;
 	padding-bottom:-5;
 }
-.price p{
+.price {
 	color:#999;
 	font-family:"Volkhov";
 	padding-top: -5px;
 	margin-top:0px;
 }
 
+/*brand-logos*/
+.brand li{
+	display: inline-block;
+	padding: 16px;
+}
