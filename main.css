@@ -148,3 +148,23 @@ background: url("http://i1382.photobucket.com/albums/ah266/ryanfairist/map_zpsn9
         height: 300px;
         margin:25px;
 }
+
+/*Footer*/
+.footer {
+	background-color:#272727;
+	margin:25px;
+}
+.footer li {
+	display: inline-block;
+	color:#999;
+	font-family: "Karla";
+	padding:15px;
+	font-size:10px;
+}
+.footer img {
+	display: inline-block;
+	padding-left:15px;
+	padding-top:15px;
+	float:right;
+	padding-right:25px;
+}
