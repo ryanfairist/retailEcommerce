@@ -36,6 +36,7 @@
 	width: 100%;
 	position:relative;
 	overflow:hidden;
+	background-size:cover;
 }
 #blue {
 	background-image: url("http://i1382.photobucket.com/albums/ah266/ryanfairist/blue%20-%20Copy%202_zpsqbnlgucm.png");
@@ -138,4 +139,12 @@
 	font-style:none;
 	color: #000;
 	padding:0px;
+}
+
+/*Map*/
+.map {
+background: url("http://i1382.photobucket.com/albums/ah266/ryanfairist/map_zpsn9x4y1tv.png") no-repeat center center;
+        background-size: cover;
+        height: 300px;
+        margin:25px;
 }
