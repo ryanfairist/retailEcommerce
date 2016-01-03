@@ -168,3 +168,21 @@ background: url("http://i1382.photobucket.com/albums/ah266/ryanfairist/map_zpsn9
 	float:right;
 	padding-right:25px;
 }
+
+/*PAGES2.HTML*/
+/*Top Picture*/
+.jumbotron {
+	background:url("http://i1382.photobucket.com/albums/ah266/ryanfairist/oldguyskids_zpsuvxoddth.jpg") no-repeat center center;
+	background-attachment: cover;
+	overflow: hidden;
+	width: 100%;
+	height:300px;
+}
+/*.jumbotron {
+  height: 300px;/* need image to show more of face*/
+  /*background: url("http://i1382.photobucket.com/albums/ah266/ryanfairist/oldguyskids_zpsuvxoddth.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top:25px;
+  margin: 25px;
+
+}*/
