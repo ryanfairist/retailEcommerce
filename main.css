@@ -214,3 +214,48 @@ background: url("http://i1382.photobucket.com/albums/ah266/ryanfairist/map_zpsn9
 	font-family: "Karla";
 	font-style: bold;
 }
+
+/*Purchase.html*/
+
+/*jumbotron purchase*/
+.socialMedia2 li {
+	display:block;
+	border-style: none;
+}
+.btn  {
+	margin:10px;
+}
+.purchaseDetail p{
+	font-family: "Karla";
+	font-size: 10px;
+	color:#999;
+}
+.purchaseDetail h5{
+	font-family: "Roboto+Slab:400,700";
+	color:#000;
+}
+.PurchaseButton p {
+	color:#000;
+	border:2px solid #000;
+	font-family: "Karla";
+	font-style: bold;
+	background-color:#ffffff;
+	margin-right:360px;
+	text-align: center;
+	padding-left:40px;
+	padding-right:40px;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-size:12px;
+} 
+#andReturn {
+	color: #73cdd7;
+}
+
+
+hr {
+     color: #999;
+     background: #999; 
+     width: 75%; 
+     height: 2px;
+}
