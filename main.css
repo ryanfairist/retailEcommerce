@@ -218,6 +218,9 @@ background: url("http://i1382.photobucket.com/albums/ah266/ryanfairist/map_zpsn9
 /*Purchase.html*/
 
 /*jumbotron purchase*/
+/*#matrix img{
+	size:cover;
+}*/
 .socialMedia2 li {
 	display:block;
 	border-style: none;
@@ -256,6 +259,26 @@ background: url("http://i1382.photobucket.com/albums/ah266/ryanfairist/map_zpsn9
 hr {
      color: #999;
      background: #999; 
-     width: 75%; 
-     height: 2px;
+     width: 60%; 
+     height: .5px;
+}
+/*Product Desciption Plus*/
+.description p {
+	font-family: "Roboto+Slab:400,700";
+	color:#000;
+}
+#moreDetials {
+	font-family: "Karla";
+	color:#999;
+	font-size:10px;
+	margin-bottom: 20px;
+}
+
+#hanger {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom:0px;
+    margin-bottom:0px;
+    margin-top:40px;
 }
