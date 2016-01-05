@@ -218,9 +218,15 @@ background: url("http://i1382.photobucket.com/albums/ah266/ryanfairist/map_zpsn9
 /*Purchase.html*/
 
 /*jumbotron purchase*/
-/*#matrix img{
+/*#matrix{
+	background:url("http://i1382.photobucket.com/albums/ah266/ryanfairist/matrixclothes1_zpsnlubedpv.jpg");
 	size:cover;
+	height:800px;
+	width:500px;
 }*/
+#pDetail {
+	padding-left:100px;
+}
 .socialMedia2 li {
 	display:block;
 	border-style: none;
@@ -246,7 +252,7 @@ background: url("http://i1382.photobucket.com/albums/ah266/ryanfairist/map_zpsn9
 	margin-right:360px;
 	text-align: center;
 	padding-left:40px;
-	padding-right:40px;
+	padding-right:100px;
 	padding-top:10px;
 	padding-bottom:10px;
 	font-size:12px;
