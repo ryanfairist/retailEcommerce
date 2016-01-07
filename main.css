@@ -1,36 +1,52 @@
-.navigation li  {
-	display:block;
+.navigation li {
+	display:inline;
 	list-style-type: none;
-	color:#999;
-	float: right;
+	
 	/*overflow: hidden;*/
 	text-decoration: none;
-	padding: 16px 15px;
-	
+	float:right;
+    padding: 16px 0px 10px 15px;
+	font-stretch: condensed;
 	margin-top:16px;
-	text-align: center;
+	margin-bottom:16px;
+	
+	margin-right:22px;
+	text-align: left;
 	font-family:"Karla";
-	font-size: 10px;
+	font-size: 12px;
 }
+.navigation li a:link{
+	color:#999;
+	}
 .header li a:hover {
 	list-style-type: none;
 	color:#000;
 	text-decoration: none;
-}
+	font-weight:bold;
 
+}
+#logo1 a:link{
+	color:#000;
+}
 #logo1 {
 	float: left;
-	padding:16px 0px;
-	margin-top:10px;
-	font-family:"Roboto+Slab:400,700";
+	padding-top:16px;
+	font-family:"Roboto Slab";
+	font-weight:bold;
 	color:#000;
 	font-size:16px;
+	letter-spacing: 2px;
+	margin-bottom:16px;
+	margin-top:16px;
+	margin-left:0px;
 }
+
+
 /*well/jumbotron*/
 
 #man {
 	background: url("http://i1382.photobucket.com/albums/ah266/ryanfairist/coololdguy%20-%20Copy_zpsixhtlkhr.jpg") no-repeat center center;
-	min-height: 500px;
+
 	margin-top: 0px;
 	margin-bottom: 0px;
 	width: 100%;
@@ -40,24 +56,37 @@
 }
 #blue {
 	background-image: url("http://i1382.photobucket.com/albums/ah266/ryanfairist/blue%20-%20Copy%202_zpsqbnlgucm.png");
-	margin: 0px 0px 0px 435px;
+	margin-left: 700px;
 	
 	padding-top: 120px;
 	padding-bottom:227.5px;
 	padding-right:50px;
 	padding-left: 50px;
 	color: #ffffff;
+	height:800px;
 }
 
 #blue p {
 	font-family: "Karla";
+	font-size:12px;
 }
 #blue {
-	font-family:"Roboto+Slab:400,700";
+	font-family:"Roboto Slab";
+	padding-top:325px;
 }
+
 #blue h6{
 	font-family:"Volkhov";
 	font-style: italic;
+	padding-top:15px;
+
+}
+#blue h3 {
+	font-weight:bold;
+	letter-spacing: 3px;
+	font-size:20px;
+	font-family:"Roboto Slab";
+	padding-bottom:15px;
 }
 /*main/arrivals*/
 .arrivals {
