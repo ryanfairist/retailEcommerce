@@ -25,9 +25,43 @@
 	font-weight:bold;
 
 }
+.header li a:active {
+	color:#000;
+	text-decoration:none;
+}
+.header li a:visited {
+	color:#000;
+	text-decoration:none;
+}
+#logo1 a:visited{
+	color:#000;
+}
+/*is the below style connecting?*/
+#logo1 a:active {
+	color:#000;
+	text-decoration:none;
+}
 #logo1 a:link{
 	color:#000;
 }
+#logo1 {
+	float: left;
+	padding-top:16px;
+	font-family:"Roboto Slab";
+	font-weight:bold;
+	color:#000;
+	font-size:16px;
+	letter-spacing: 2px;
+	margin-bottom:16px;
+	margin-top:16px;
+	margin-left:0px;
+}
+/*#logo1 a:hover {
+	list-style-type: none;
+	color:#000;
+	text-decoration: none;
+	font-weight:bold;
+}*/
 #logo1 {
 	float: left;
 	padding-top:16px;
@@ -108,22 +142,21 @@
 
 .supporting {
 	color:#000;
-	font-family:"Roboto+Slab:400,700";
-	font-style: bold;
+	font-family:"Roboto Slab";
+	font-weight: bold;
 	text-align: center;
 	font-size: 10px;
+	line-height: .5em;
+	/*line-height: -10px;*/
 }
 .supporting p {
-	/*margin-top: 20px;*/
-	padding-top: 20px;
-	margin-bottom:0;
-	padding-bottom:-5;
+    margin-top: 20px;
 }
 .price {
 	color:#999;
 	font-family:"Volkhov";
-	padding-top: -5px;
-	margin-top:0px;
+	padding-bottom: 10px;
+	line-height: -10px;
 }
 
 /*brand-logos*/
@@ -170,22 +203,21 @@
 	padding:0px;
 }
 
-.price {
-	padding-bottom: 10px;
-}
+
 
 /*Map*/
 .map {
 background: url("http://i1382.photobucket.com/albums/ah266/ryanfairist/map_zpsn9x4y1tv.png") no-repeat center center;
         background-size: cover;
         height: 300px;
-        margin:25px;
+        margin-bottom:25px;
+        margin-top:25px;
 }
 
 /*Footer*/
 .footer {
 	background-color:#272727;
-	margin:25px;
+	margin-top:25px;
 }
 .footer li {
 	display: inline-block;
@@ -204,44 +236,40 @@ background: url("http://i1382.photobucket.com/albums/ah266/ryanfairist/map_zpsn9
 
 /*PAGES2.HTML*/
 /*Top Picture*/
-.oldMansKids .jumbotron {
-	background:url("http://i1382.photobucket.com/albums/ah266/ryanfairist/oldguyskids_zpsuvxoddth.jpg") no-repeat center center;
-	background-attachment: cover;
+.oldMansKids {
+	background:url("http://i1382.photobucket.com/albums/ah266/ryanfairist/oldguyskids_zpsuvxoddth.jpg") no-repeat;
 	overflow: hidden;
 	width: 100%;
 	min-height:300px;
 	color:#ffffff;
 }
-.oldMansKids .jumbotron h5 {
+.oldMansKids h5 {
 	margin-top:75px;
 	font-family: "Karla";
 	font-size: 10px;
+	
 }
 
-.oldMansKids .jumbotron p{
-	font-family: "Roboto+Slab:400,700";
+.oldMansKids p{
+	font-family: "Roboto Slab";
+	font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 16px;
 }
-/*.jumbotron {
-  height: 300px;/* need image to show more of face*/
-  /*background: url("http://i1382.photobucket.com/albums/ah266/ryanfairist/oldguyskids_zpsuvxoddth.jpg") no-repeat center center;
-  background-size: cover;
-  padding-top:25px;
-  margin: 25px;
 
-}*/
-/*.oldMansKids .jumbotron{
-	color:#ffffff;
-	background: url("http://i1382.photobucket.com/albums/ah266/ryanfairist/oldguyskids_zpsuvxoddth.jpg");
-	background-attachment: fixed;
-	min-height:300px;
-	margin-top:5px;
-	margin-bottom:5px;
-}
+
+
 /*SupportingPage 2*/
 
-.picTitle {
+#picTitle p {
 	font-family: "Karla";
-	font-style: bold;
+	font-weight: bold;
+	font-size: 10px;
+	color:#000;
+	margin-top:35px;
+	margin-bottom:25px;
+	text-align:right;
+
 }
 
 /*Purchase.html*/
@@ -268,9 +296,11 @@ background: url("http://i1382.photobucket.com/albums/ah266/ryanfairist/map_zpsn9
 	font-size: 10px;
 	color:#999;
 }
-.purchaseDetail h5{
-	font-family: "Roboto+Slab:400,700";
+.purchaseDetail h6{
+	font-family: "Roboto Slab";
+	font-weight:bold;
 	color:#000;
+	letter-spacing:2px;
 }
 .PurchaseButton p {
 	color:#000;
