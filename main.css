@@ -242,9 +242,10 @@ background: url("http://i1382.photobucket.com/albums/ah266/ryanfairist/map_zpsn9
 	width: 100%;
 	min-height:300px;
 	color:#ffffff;
+	background-size: cover;
 }
 .oldMansKids h5 {
-	margin-top:75px;
+	margin-top:150px;
 	font-family: "Karla";
 	font-size: 10px;
 	
