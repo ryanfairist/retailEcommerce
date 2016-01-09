@@ -177,15 +177,15 @@ margin-right: 60.5px;
 
 /*Shipping*/
 
-
+.shipping .container {
+width: 100%;
+}
 
 .shipping img {
 	float:left;
 	margin:0px;
 	padding:10px 30px;
-background-color:#f6f6f6;
-
-
+	background-color:#f6f6f6;
 }
 #freeReturn, #freeShipping, #orderTracking{
 	background-color:#f6f6f6;
@@ -298,27 +298,28 @@ background: url("http://i1382.photobucket.com/albums/ah266/ryanfairist/map_zpsn9
 
 /*Purchase.html*/
 
-/*jumbotron purchase*/
-/*#matrix{
-	background:url("http://i1382.photobucket.com/albums/ah266/ryanfairist/matrixclothes1_zpsnlubedpv.jpg");
-	size:cover;
-	height:800px;
-	width:500px;
-}*/
+
 #pDetail {
-	padding-left:100px;
+	padding-left:10px;
 }
 .socialMedia2 li {
 	display:block;
 	border-style: none;
+	margin-right:75px;
 }
 .btn  {
+	margin-top:50px;
+}
+.purchaseDetail {
+	background-color:#F6F6F6;
 	margin:10px;
+	height:600px;
 }
 .purchaseDetail p{
 	font-family: "Karla";
-	font-size: 10px;
+	font-size: 12px;
 	color:#999;
+	margin-right:100px;
 }
 .purchaseDetail h6{
 	font-family: "Roboto Slab";
@@ -353,7 +354,8 @@ hr {
 }
 /*Product Desciption Plus*/
 .description p {
-	font-family: "Roboto+Slab:400,700";
+	font-family: "Roboto Slab";
+	font-weight: bold;
 	color:#000;
 }
 #moreDetials {
