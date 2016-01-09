@@ -349,17 +349,29 @@ background: url("http://i1382.photobucket.com/albums/ah266/ryanfairist/map_zpsn9
 .PurchaseButton p {
 	color:#000;
 	border:2px solid #000;
+	border-radius:0px;
 	font-family: "Karla";
 	font-style: bold;
-	background-color:#ffffff;
+	background-color:#f6f6f6;
 	margin-right:360px;
 	text-align: center;
-	padding-left:40px;
-	padding-right:100px;
-	padding-top:10px;
-	padding-bottom:10px;
 	font-size:12px;
+	padding-right:40px;
+	padding-left:40px;
 } 
+.PurchaseButton p:hover {
+	color:#fff;
+	border:2px solid #000;
+	border-radius:0px;
+	font-family: "Karla";
+	font-style: bold;
+	background-color:#000;
+	margin-right:360px;
+	text-align: center;
+	font-size:12px;
+	padding-right:40px;
+	padding-left:40px;
+}
 #andReturn {
 	color: #73cdd7;
 }
