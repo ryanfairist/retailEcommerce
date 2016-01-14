@@ -35,6 +35,7 @@
 }
 #logo1 a:visited{
 	color:#000;
+	text-decoration:none;
 }
 /*is the below style connecting?*/
 #logo1 a:active {
@@ -43,6 +44,7 @@
 }
 #logo1 a:link{
 	color:#000;
+	text-decoration:none;
 }
 #logo1 {
 	float: left;
